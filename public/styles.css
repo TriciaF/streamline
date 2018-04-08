@@ -1,16 +1,18 @@
 /*----- Whole Page CSS -----*/
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://i.imgur.com/PV8ojj9.jpg);
+    /* background-image: url(https://i.imgur.com/PV8ojj9.jpg); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: scroll;
+    /* opacity: .5; */
 }
+
 
 /*----- Header CSS -----*/
 
@@ -33,9 +35,9 @@ h2 {
 }
 
 .transparent {
-    background:rgba(248,248,248,0.1);
+    background: rgba(179, 176, 176, 0.1);
     margin: 0 auto;
-    max-width: 90%;
+    /* max-width: 90%; */
 }
 
 h1,
@@ -44,8 +46,8 @@ h2 {
     color: #FF4500;
 }
 
-/*----- Main CSS -----*/
 
+/*----- Main CSS -----*/
 
 li {
     display: inline-block;
@@ -60,8 +62,8 @@ li {
 }
 
 img {
-height: 300px;
-max-width: 200px;
+    height: 300px;
+    max-width: 200px;
 }
 
 .movie-item,
@@ -70,10 +72,10 @@ max-width: 200px;
     border: 2px solid black;
     padding: 10px;
     margin: 10px;
-    background-color: #FEF9E7;
+    background-color: rgb(219, 223, 236);
     border-radius: 12px;
     display: table-cell, block;
-    opacity: .98;
+    /* opacity: .98; */
 }
 
 .movie-item {
