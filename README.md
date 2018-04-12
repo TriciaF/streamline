@@ -6,7 +6,7 @@ Streamline your streaming process!  StreamLine is the definitive directory for f
 
 ## Link to Deployed Version
 
-https://streamline.netlify.com/
+https://streamline-capstone.herokuapp.com/
 
 ## Tech Stack
 
