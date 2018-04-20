@@ -10,6 +10,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     position: scroll;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     /* opacity: .5; */
 }
 
@@ -35,9 +36,8 @@ h2 {
 }
 
 .transparent {
-    background: rgba(179, 176, 176, 0.1);
+    background-color: rgba(83, 137, 238, 0.1);
     margin: 0 auto;
-    /* max-width: 90%; */
 }
 
 h1,
@@ -64,32 +64,46 @@ li {
 img {
     height: 300px;
     max-width: 200px;
+    border-radius: 5px;
 }
 
 .movie-item,
 .box-office,
 .movie-card {
-    border: 2px solid black;
+    border: 1px solid black;
     padding: 10px;
     margin: 10px;
     background-color: rgb(219, 223, 236);
-    border-radius: 12px;
-    display: table-cell, block;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     /* opacity: .98; */
 }
 
 .movie-item {
-    max-width: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 300px;
     max-height: 450px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10), 0px 10px 20px rgba(0, 0, 0, 0.05), 0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
 }
 
 .movie-list,
 .box-office-list,
 .movie-card-list {
-    display: table;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
     width: 100%;
     padding: 0px;
-    margin: 0 auto;
+}
+
+.poster-path {
+    margin: auto;
 }
 
 .movie-card {
@@ -99,9 +113,10 @@ img {
 }
 
 .box-office-list {
-    display: table;
-    padding: 0px;
-    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column padding;
+    margin: auto;
     width: 90%;
 }
 
@@ -134,7 +149,8 @@ img {
     background-color: #87CEFA;
     border-radius: 5px;
     border: 1px solid black;
-    width: 60px;
+    width: 80px;
+    height: 22px;
     margin-top: 10px;
 }
 
