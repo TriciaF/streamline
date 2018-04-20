@@ -1,4 +1,4 @@
-# Tricia-Jeff-Node-Capstone   
+# StreamLine Application   
 
 
 ## Pitch
