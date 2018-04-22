@@ -8,6 +8,12 @@ Streamline your streaming process!  StreamLine is the definitive directory for f
 
 https://streamline-capstone.herokuapp.com/
 
+![Screenshot](streamline/public/streamLine1.jpg)
+
+
+![Screenshot](streamline/public/streamLine2.jpg)
+
+
 ## Tech Stack
 
 * Node.js
