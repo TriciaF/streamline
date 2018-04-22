@@ -8,7 +8,7 @@ Streamline your streaming process!  StreamLine is the definitive directory for f
 
 https://streamline-capstone.herokuapp.com/
 
-##Screenshots
+## Screenshots
 
 ![alt text](/public/streamLine1.jpg?raw=true "Main page")
 
